@@ -24,7 +24,6 @@ const ytdl = require("ytdl-core")
 const calip = require ('caliph-api')
 const yts = require("yt-search")
 const { exec, spawn, execSync } = require("child_process")
-const {  tiktokdl, tiktokdlv2, lyricsv2,  lyrics,tiktokdlv3, savefrom, instagramdlv3, instagramdlv2 } = require('@bochilteam/scraper')
 
 //========== Via Database =========//
 let afk = require("./lib/afk");
