@@ -1,0 +1,145 @@
+{
+  "allcommand": [
+    "S",
+    "Ls"
+  ],
+  "anonymous": [],
+  "blockcmd": [],
+  "banned": [],
+  "premium": [],
+  "claim": [],
+  "data": [
+    {
+      "name": "premium",
+      "id": []
+    },
+    {
+      "name": "commands",
+      "id": []
+    },
+    {
+      "name": "limit",
+      "id": []
+    }
+  ],
+  "sewa": [],
+  "antispam": [
+    {
+      "name": "NotCase",
+      "id": "6281316643491",
+      "expired": 1704026343721
+    }
+  ],
+  "dashboard": [
+    {
+      "cmd": "S",
+      "succes": 1,
+      "failed": 0
+    },
+    {
+      "cmd": "Ls",
+      "succes": 1,
+      "failed": 0
+    }
+  ],
+  "listerror": [],
+  "hittoday": [
+    {
+      "id": "run",
+      "expired": 1704112742277,
+      "totalcmd": 2
+    }
+  ],
+  "clearchat": [],
+  "users": {
+    "6281316643491@s.whatsapp.net": {
+      "name": "`-єнαηz",
+      "id": "6281316643491",
+      "date": "31 Desember 2023",
+      "exp": 100,
+      "level": 1,
+      "hit": 2,
+      "balance": 1000,
+      "limit": 30,
+      "glimit": 30,
+      "serial": "NBB3",
+      "lastclaim": 0,
+      "afk": -1,
+      "pc": 0,
+      "grade": "Newbie",
+      "autolevelup": false,
+      "afkReason": ""
+    }
+  },
+  "chats": {
+    "120363191129103322@g.us": {
+      "name": "💕WELCOME  2024💕",
+      "add": 0,
+      "detect": true,
+      "welcome": true,
+      "sWelcome": true,
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "desc": true,
+      "descUpdate": true,
+      "autostiker": false,
+      "antilink": false,
+      "antilinkgc": false,
+      "antidelete": false,
+      "antiasing": false,
+      "banchat": false,
+      "antitoxic": true,
+      "expired": 0,
+      "antibadword": true,
+      "antispam": true,
+      "antitroli": false,
+      "antivirtex": false,
+      "antiwame": false,
+      "antihidetag": false,
+      "viewonce": true,
+      "nsfw": false,
+      "clear": false,
+      "clearTime": 0,
+      "stiker": false,
+      "antiLink": true,
+      "antiBadword": true
+    },
+    "120363180007756496@g.us": {
+      "name": "୧⍤⃝💐 𝘙𝘢𝘯𝘨𝘦𝘭 𝘉𝘰𝘵𝘻  ˃̵ᴗ˂̵",
+      "add": 0,
+      "detect": true,
+      "welcome": true,
+      "sWelcome": true,
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "desc": true,
+      "descUpdate": true,
+      "autostiker": false,
+      "antilink": false,
+      "antilinkgc": false,
+      "antidelete": false,
+      "antiasing": false,
+      "banchat": false,
+      "antitoxic": true,
+      "expired": 0,
+      "antibadword": true,
+      "antispam": true,
+      "antitroli": false,
+      "antivirtex": false,
+      "antiwame": false,
+      "antihidetag": false,
+      "viewonce": true,
+      "nsfw": false,
+      "clear": false,
+      "clearTime": 0,
+      "stiker": false,
+      "antiLink": true,
+      "antiBadword": true
+    }
+  },
+  "settings": {},
+  "kickon": {},
+  "others": {}
+}
