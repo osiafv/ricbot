@@ -132,12 +132,6 @@ printQRInTerminal: true,
       text: 'Connecting . . .'
    })   
 
-   if(usePairingCode && !zex.authState.creds.registered) {
-    const phoneNumber = await question('MASUKKAN NOMOR DENGAN AWALAN 62 UNTUK MENDAPATKAN PAIRING CODE\n');
-const code = await zex.requestPairingCode(phoneNumber.trim())
-console.log(`Pairing code: ${code}`)
-}
-
 //=================================================//
 //Untuk menyimpan session  
 const auth = {
