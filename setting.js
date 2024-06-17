@@ -7,8 +7,6 @@ global.owner = ['6287722854496','6281248249833']
 global.premium = ['6281248249833']
 global.ownername = 'Riz'
 
-TOKEN=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
-
 global.ownerName = "Ric"
 global.namabot = "© Sky"
 global.botName = "© Sky"

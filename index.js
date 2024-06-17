@@ -114,6 +114,7 @@ const store = makeInMemoryStore({ logger: logg().child({ level: 'fatal', stream:
 const { isLatest } = await fetchLatestBaileysVersion()
 if (global.db.data) await global.db.write() 
 /*const { state, saveCreds } = await useMultiFileAuthState(global.sessionName)*/
+
 const zex = makeWASocket({
 logger: pino({ level: "silent" }),
 printQRInTerminal: true,
@@ -129,14 +130,13 @@ printQRInTerminal: true,
 
    spinnies.add('start', {
       text: 'Connecting . . .'
-   })
-   
+   })   
 
-if(usePairingCode && !zex.authState.creds.registered) {
-				const phoneNumber = await question('MASUKKAN NOMOR DENGAN AWALAN 62 UNTUK MENDAPATKAN PAIRING CODE\n');
-		const code = await zex.requestPairingCode(phoneNumber.trim())
-		console.log(`Pairing code: ${code}`)
-	}
+   if(usePairingCode && !zex.authState.creds.registered) {
+    const phoneNumber = await question('MASUKKAN NOMOR DENGAN AWALAN 62 UNTUK MENDAPATKAN PAIRING CODE\n');
+const code = await zex.requestPairingCode(phoneNumber.trim())
+console.log(`Pairing code: ${code}`)
+}
 
 //=================================================//
 //Untuk menyimpan session  
